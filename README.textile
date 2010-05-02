@@ -1,0 +1,9 @@
+Paranoia.app is kind of example source project for using the new background location services in the upcoming iPhone OS 4.0 (beware breaking your NDA).
+
+The example uses only significant location changes (= hand over to new cell towers) and sends them with a simple GET request to the internet.
+
+You should alter the URL which will be called on a location change event. Since my code is quick and dirty 1 hour round up, you've to alter it on two occurences:
+* in the app delegate and
+* in the view controller
+
+Yes, the UILabels in the xib file do not any useful things, as of now.
