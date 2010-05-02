@@ -1,0 +1,491 @@
+TParanoia
+v7
+r0
+t294496566.018765
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Paranoia.app/ResourceRules.plist /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Info.plist Paranoia-Info.plist
+cCompileXIB /Users/jkohl/dev/Paranoia/MainWindow.xib
+cCompileXIB /Users/jkohl/dev/Paranoia/ParanoiaViewController.xib
+cCopyPNGFile /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Icon.png Icon.png
+cProcessPCH /var/folders/gD/gDOyqK9HE0aZwRNfV1cUWU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paranoia_Prefix-bctsxusffogunkgtntnwnkucngdl/Paranoia_Prefix.pch.gch Paranoia_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/gD/gDOyqK9HE0aZwRNfV1cUWU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paranoia_Prefix-favcpwpfvykpcuaqosiwdminmksw/Paranoia_Prefix.pch.gch Paranoia_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/main.o /Users/jkohl/dev/Paranoia/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/ParanoiaAppDelegate.o /Users/jkohl/dev/Paranoia/Classes/ParanoiaAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/ParanoiaViewController.o /Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/Paranoia normal armv6
+cCompileC build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/main.o /Users/jkohl/dev/Paranoia/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/ParanoiaAppDelegate.o /Users/jkohl/dev/Paranoia/Classes/ParanoiaAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/ParanoiaViewController.o /Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/Paranoia normal armv7
+cCreateUniversalBinary /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Paranoia normal "armv6 armv7"
+cGenerateDSYMFile /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app.dSYM /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Paranoia
+cProcessProductPackaging "/Users/jkohl/Library/MobileDevice/Provisioning Profiles/61E6A781-190A-48B4-B0B8-9FAC3619C1CE.mobileprovision" /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/embedded.mobileprovision
+cTouch /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app
+cProcessProductPackaging /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia.xcent
+cCodeSign /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app
+
+N/Users/jkohl/Library/MobileDevice/Provisioning Profiles/61E6A781-190A-48B4-B0B8-9FAC3619C1CE.mobileprovision
+c000000004BD0122A0000000000001E9C
+t1271927338
+s7836
+
+N/Users/jkohl/dev/Paranoia/Classes/ParanoiaAppDelegate.h
+c000000004BDD6CBF00000000000003AE
+t1272802495
+s942
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/jkohl/dev/Paranoia/Classes/ParanoiaAppDelegate.m
+c000000004BDD71680000000000000C18
+t1272803688
+s3096
+i"ParanoiaAppDelegate.h"
+i"ParanoiaViewController.h"
+
+N/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.h
+c000000004BD01675000000000000013D
+t1271928437
+s317
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m
+c000000004BD01DDB0000000000000CD6
+t1271930331
+s3286
+i"ParanoiaViewController.h"
+i"ParanoiaAppDelegate.h"
+
+N/Users/jkohl/dev/Paranoia/Icon.png
+c000000004BDD6A28000000000000131E
+t1272801832
+s4894
+
+N/Users/jkohl/dev/Paranoia/MainWindow.xib
+c000000004BD010580000000000004D20
+t1271926872
+s19744
+
+N/Users/jkohl/dev/Paranoia/ParanoiaViewController.xib
+c000000004BDD6D170000000000006BF6
+t1272802583
+s27638
+
+N/Users/jkohl/dev/Paranoia/Paranoia_Prefix.pch
+c000000004BD0105800000000000000B9
+t1271926872
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app
+t1272803733
+s408
+
+N/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app.dSYM
+t1272803733
+s102
+
+N/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Icon.png
+t1272802329
+s5155
+
+N/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Info.plist
+t1272802328
+s722
+
+N/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/MainWindow.nib
+t1271927646
+s1187
+
+N/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Paranoia
+t1272803733
+s65792
+
+N/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/ParanoiaViewController.nib
+t1272803593
+s2168
+
+N/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/PkgInfo
+t1272802328
+s8
+
+N/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/ResourceRules.plist
+t1271927643
+s485
+
+N/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/embedded.mobileprovision
+t1271927649
+s7836
+
+N/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/Paranoia
+t1272803733
+s23024
+
+N/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/Paranoia.LinkFileList
+c000000004BD0135B000000000000015C
+t1271927643
+s348
+
+N/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/ParanoiaAppDelegate.o
+t1272803733
+s55920
+
+N/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/ParanoiaViewController.o
+t1272803594
+s45948
+
+N/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/main.o
+t1271927648
+s6432
+
+N/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/Paranoia
+t1272803733
+s23024
+
+N/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/Paranoia.LinkFileList
+c000000004BD0135B000000000000015C
+t1271927643
+s348
+
+N/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/ParanoiaAppDelegate.o
+t1272803733
+s55604
+
+N/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/ParanoiaViewController.o
+t1272803595
+s45796
+
+N/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/main.o
+t1271927648
+s6416
+
+N/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia.xcent
+t1272802334
+s410
+
+N/Users/jkohl/dev/Paranoia/main.m
+c000000004BD010580000000000000174
+t1271926872
+s372
+i<UIKit/UIKit.h>
+
+N/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004BC928710000000000000110
+t1271474289
+s272
+
+N/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004BC2865800000000000001A7
+t1271039576
+s423
+
+N/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004BC2865800000000000001E5
+t1271039576
+s485
+
+N/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004BC6BED200000000004E7790
+t1271316178
+s5142416
+
+N/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BC6BEA70000000000546860
+t1271316135
+s5531744
+
+N/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004BC6CA5500000000000BE2C0
+t1271319125
+s778944
+
+N/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004BC6CA4D00000000000001C8
+t1271319117
+s456
+
+N/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BC6BF110000000000625A90
+t1271316241
+s6445712
+
+N/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BC6BEF10000000000001466
+t1271316209
+s5222
+
+N/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004BC6C05100000000000A4780
+t1271316561
+s673664
+
+N/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004BC6BDE3000000000010CA10
+t1271315939
+s1100304
+
+N/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BC6CB0D00000000000009CD
+t1271319309
+s2509
+
+N/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BC6CBFF0000000002B27F50
+t1271319551
+s45252432
+
+N/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libz.1.2.3.dylib
+c000000004BC6A9DB0000000000032FF0
+t1271310811
+s208880
+
+N/var/folders/gD/gDOyqK9HE0aZwRNfV1cUWU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paranoia_Prefix-bctsxusffogunkgtntnwnkucngdl/Paranoia_Prefix.pch.gch
+t1271927648
+s9807408
+
+N/var/folders/gD/gDOyqK9HE0aZwRNfV1cUWU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paranoia_Prefix-favcpwpfvykpcuaqosiwdminmksw/Paranoia_Prefix.pch.gch
+t1271927648
+s10270256
+
+NParanoia-Info.plist
+c000000004BDD6A88000000000000038F
+t1272801928
+s911
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies294496565#294496565#0(0"0(0#1#0"4300774240#0"0#
+
+CCodeSign /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app
+s294496565.322308
+e294496566.018715
+r1
+xCodeSign
+x/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app
+o/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app: replacing existing signature
+lSLF07#2@42"CodeSign build/Debug-iphoneos/Paranoia.app294496565#294496566#0(90"/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app: replacing existing signature0(0#0#59"/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app4300774240#632"    cd /Users/jkohl/dev/Paranoia    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Jens Kohl (5EE74D99DN)" --resource-rules=/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/ResourceRules.plist --entitlements /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia.xcent /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app0#
+
+CCompileC build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/ParanoiaAppDelegate.o /Users/jkohl/dev/Paranoia/Classes/ParanoiaAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294496532.892892
+e294496533.103077
+r1
+xCompileC
+xbuild/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/ParanoiaAppDelegate.o
+x/Users/jkohl/dev/Paranoia/Classes/ParanoiaAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/jkohl/dev/Paranoia/Classes/ParanoiaAppDelegate.m294496532#294496533#0(0"0(0#0#55"/Users/jkohl/dev/Paranoia/Classes/ParanoiaAppDelegate.m4300774240#1659"    cd /Users/jkohl/dev/Paranoia    setenv LANG en_US.US-ASCII    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-generated-files.hmap -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-own-target-headers.hmap -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-all-target-headers.hmap -iquote /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-project-headers.hmap -F/Users/jkohl/dev/Paranoia/build/Debug-iphoneos -I/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/include -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/DerivedSources/armv6 -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/DerivedSources -include /var/folders/gD/gDOyqK9HE0aZwRNfV1cUWU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paranoia_Prefix-bctsxusffogunkgtntnwnkucngdl/Paranoia_Prefix.pch -c /Users/jkohl/dev/Paranoia/Classes/ParanoiaAppDelegate.m -o /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/ParanoiaAppDelegate.o0#
+
+CCompileC build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/ParanoiaViewController.o /Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294496393.560873
+e294496394.253504
+r1
+xCompileC
+xbuild/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/ParanoiaViewController.o
+x/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m: In function '-[ParanoiaViewController viewDidLoad]':
+o/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m:37: warning: '-locationManager' not found in protocol(s)
+o/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m: In function '-[ParanoiaViewController viewDidUnload]':
+o/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m:98: warning: '-locationManager' not found in protocol(s)
+lSLF07#2@66"Compile /Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m294496393#294496394#0(460"/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m: In function '-[ParanoiaViewController viewDidLoad]':/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m:37: warning: '-locationManager' not found in protocol(s)/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m: In function '-[ParanoiaViewController viewDidUnload]':/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m:98: warning: '-locationManager' not found in protocol(s)2(22@43"'-locationManager' not found in protocol(s)294496394#113#116#0(6@58"/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m293623131#37#0#37#0#28"'*' not found in protocol(s)0(22@43"'-locationManager' not found in protocol(s)294496394#344#116#0(6@58"/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m293623131#98#0#98#0#28"'*' not found in protocol(s)0(0#0#58"/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m4300774240#1665"    cd /Users/jkohl/dev/Paranoia    setenv LANG en_US.US-ASCII    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-generated-files.hmap -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-own-target-headers.hmap -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-all-target-headers.hmap -iquote /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-project-headers.hmap -F/Users/jkohl/dev/Paranoia/build/Debug-iphoneos -I/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/include -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/DerivedSources/armv6 -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/DerivedSources -include /var/folders/gD/gDOyqK9HE0aZwRNfV1cUWU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paranoia_Prefix-bctsxusffogunkgtntnwnkucngdl/Paranoia_Prefix.pch -c /Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m -o /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/ParanoiaViewController.o0#
+
+CCompileC build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/main.o /Users/jkohl/dev/Paranoia/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293620448.505796
+e293620448.680096
+r1
+xCompileC
+xbuild/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/main.o
+x/Users/jkohl/dev/Paranoia/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Compile /Users/jkohl/dev/Paranoia/main.m293620448#293620448#0(0"0(0#0#32"/Users/jkohl/dev/Paranoia/main.m4300774240#1621"    cd /Users/jkohl/dev/Paranoia    setenv LANG en_US.US-ASCII    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-generated-files.hmap -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-own-target-headers.hmap -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-all-target-headers.hmap -iquote /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-project-headers.hmap -F/Users/jkohl/dev/Paranoia/build/Debug-iphoneos -I/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/include -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/DerivedSources/armv6 -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/DerivedSources -include /var/folders/gD/gDOyqK9HE0aZwRNfV1cUWU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paranoia_Prefix-bctsxusffogunkgtntnwnkucngdl/Paranoia_Prefix.pch -c /Users/jkohl/dev/Paranoia/main.m -o /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/ParanoiaAppDelegate.o /Users/jkohl/dev/Paranoia/Classes/ParanoiaAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s294496532.953258
+e294496533.118983
+r1
+xCompileC
+xbuild/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/ParanoiaAppDelegate.o
+x/Users/jkohl/dev/Paranoia/Classes/ParanoiaAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/jkohl/dev/Paranoia/Classes/ParanoiaAppDelegate.m294496532#294496533#0(0"0(0#0#55"/Users/jkohl/dev/Paranoia/Classes/ParanoiaAppDelegate.m4300774240#1659"    cd /Users/jkohl/dev/Paranoia    setenv LANG en_US.US-ASCII    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-generated-files.hmap -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-own-target-headers.hmap -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-all-target-headers.hmap -iquote /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-project-headers.hmap -F/Users/jkohl/dev/Paranoia/build/Debug-iphoneos -I/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/include -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/DerivedSources/armv7 -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/DerivedSources -include /var/folders/gD/gDOyqK9HE0aZwRNfV1cUWU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paranoia_Prefix-favcpwpfvykpcuaqosiwdminmksw/Paranoia_Prefix.pch -c /Users/jkohl/dev/Paranoia/Classes/ParanoiaAppDelegate.m -o /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/ParanoiaAppDelegate.o0#
+
+CCompileC build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/ParanoiaViewController.o /Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s294496395.610969
+e294496395.850030
+r1
+xCompileC
+xbuild/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/ParanoiaViewController.o
+x/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m: In function '-[ParanoiaViewController viewDidLoad]':
+o/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m:37: warning: '-locationManager' not found in protocol(s)
+o/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m: In function '-[ParanoiaViewController viewDidUnload]':
+o/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m:98: warning: '-locationManager' not found in protocol(s)
+lSLF07#2@66"Compile /Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m294496395#294496395#0(460"/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m: In function '-[ParanoiaViewController viewDidLoad]':/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m:37: warning: '-locationManager' not found in protocol(s)/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m: In function '-[ParanoiaViewController viewDidUnload]':/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m:98: warning: '-locationManager' not found in protocol(s)2(22@43"'-locationManager' not found in protocol(s)294496395#113#116#0(6@58"/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m293623131#37#0#37#0#28"'*' not found in protocol(s)0(22@43"'-locationManager' not found in protocol(s)294496395#344#116#0(6@58"/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m293623131#98#0#98#0#28"'*' not found in protocol(s)0(0#0#58"/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m4300774240#1665"    cd /Users/jkohl/dev/Paranoia    setenv LANG en_US.US-ASCII    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-generated-files.hmap -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-own-target-headers.hmap -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-all-target-headers.hmap -iquote /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-project-headers.hmap -F/Users/jkohl/dev/Paranoia/build/Debug-iphoneos -I/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/include -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/DerivedSources/armv7 -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/DerivedSources -include /var/folders/gD/gDOyqK9HE0aZwRNfV1cUWU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paranoia_Prefix-favcpwpfvykpcuaqosiwdminmksw/Paranoia_Prefix.pch -c /Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m -o /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/ParanoiaViewController.o0#
+
+CCompileC build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/main.o /Users/jkohl/dev/Paranoia/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293620448.682703
+e293620448.766172
+r1
+xCompileC
+xbuild/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/main.o
+x/Users/jkohl/dev/Paranoia/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Compile /Users/jkohl/dev/Paranoia/main.m293620448#293620448#0(0"0(0#0#32"/Users/jkohl/dev/Paranoia/main.m4300774240#1621"    cd /Users/jkohl/dev/Paranoia    setenv LANG en_US.US-ASCII    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-generated-files.hmap -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-own-target-headers.hmap -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-all-target-headers.hmap -iquote /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-project-headers.hmap -F/Users/jkohl/dev/Paranoia/build/Debug-iphoneos -I/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/include -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/DerivedSources/armv7 -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/DerivedSources -include /var/folders/gD/gDOyqK9HE0aZwRNfV1cUWU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paranoia_Prefix-favcpwpfvykpcuaqosiwdminmksw/Paranoia_Prefix.pch -c /Users/jkohl/dev/Paranoia/main.m -o /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/jkohl/dev/Paranoia/MainWindow.xib
+s293620443.591086
+e293620446.098425
+r1
+xCompileXIB
+x/Users/jkohl/dev/Paranoia/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib293620443#293620446#0(0"0(0#0#40"/Users/jkohl/dev/Paranoia/MainWindow.xib4300774240#443"    cd /Users/jkohl/dev/Paranoia    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iPhoneOS40beta/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/MainWindow.nib /Users/jkohl/dev/Paranoia/MainWindow.xib0#
+
+CCompileXIB /Users/jkohl/dev/Paranoia/ParanoiaViewController.xib
+s294496389.613050
+e294496393.321372
+r1
+xCompileXIB
+x/Users/jkohl/dev/Paranoia/ParanoiaViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@37"CompileXIB ParanoiaViewController.xib294496389#294496393#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#52"/Users/jkohl/dev/Paranoia/ParanoiaViewController.xib13229740524109936#467"    cd /Users/jkohl/dev/Paranoia    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iPhoneOS40beta/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/ParanoiaViewController.nib /Users/jkohl/dev/Paranoia/ParanoiaViewController.xib0#
+
+CCopyPNGFile /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Icon.png Icon.png
+s294495128.163477
+e294495129.536673
+r1
+xCopyPNGFile
+x/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Icon.png
+xIcon.png
+lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/Paranoia.app/Icon.png Icon.png294495128#294495129#0(0"0(0#0#34"/Users/jkohl/dev/Paranoia/Icon.png4300774240#538"    cd /Users/jkohl/dev/Paranoia    setenv COPY_COMMAND /iPhoneOS40beta/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jkohl/dev/Paranoia/Icon.png /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Icon.png0#
+
+CCpResource build/Debug-iphoneos/Paranoia.app/ResourceRules.plist /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s293620443.538760
+e293620443.591002
+r1
+xCpResource
+xbuild/Debug-iphoneos/Paranoia.app/ResourceRules.plist
+x/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@99"Copy /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist293620443#293620443#0(0"0(0#0#94"/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist4300774240#475"    cd /Users/jkohl/dev/Paranoia    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iPhoneOS40beta/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app0#
+
+CCreateUniversalBinary /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Paranoia normal "armv6 armv7"
+s294496533.167322
+e294496533.175110
+r1
+xCreateUniversalBinary
+x/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Paranoia
+xnormal
+xarmv6 armv7
+lSLF07#2@85"CreateUniversalBinary build/Debug-iphoneos/Paranoia.app/Paranoia normal "armv6 armv7"294496533#294496533#0(0"0(0#0#37"/Users/jkohl/dev/Paranoia/armv6 armv74300774240#484"    cd /Users/jkohl/dev/Paranoia    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/Paranoia /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/Paranoia -output /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Paranoia0#
+
+CGenerateDSYMFile /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app.dSYM /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Paranoia
+s294496533.175206
+e294496533.200491
+r1
+xGenerateDSYMFile
+x/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app.dSYM
+x/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Paranoia
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/Paranoia.app.dSYM build/Debug-iphoneos/Paranoia.app/Paranoia294496533#294496533#0(0"0(0#0#68"/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Paranoia4300774240#341"    cd /Users/jkohl/dev/Paranoia    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iPhoneOS40beta/usr/bin/dsymutil /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Paranoia -o /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app.dSYM0#
+
+CLd /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/Paranoia normal armv6
+s294496533.103160
+e294496533.162770
+r1
+xLd
+x/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/Paranoia
+xnormal
+xarmv6
+lSLF07#2@111"Link /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/Paranoia294496533#294496533#0(0"0(0#0#0"4300774240#844"    cd /Users/jkohl/dev/Paranoia    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/jkohl/dev/Paranoia/build/Debug-iphoneos -F/Users/jkohl/dev/Paranoia/build/Debug-iphoneos -filelist /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/Paranoia.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -o /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv6/Paranoia0#
+
+CLd /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/Paranoia normal armv7
+s294496533.119262
+e294496533.167236
+r1
+xLd
+x/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/Paranoia
+xnormal
+xarmv7
+lSLF07#2@111"Link /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/Paranoia294496533#294496533#0(0"0(0#0#0"4300774240#844"    cd /Users/jkohl/dev/Paranoia    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/jkohl/dev/Paranoia/build/Debug-iphoneos -F/Users/jkohl/dev/Paranoia/build/Debug-iphoneos -filelist /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/Paranoia.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -o /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Objects-normal/armv7/Paranoia0#
+
+CProcessInfoPlistFile /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Info.plist Paranoia-Info.plist
+s294495128.075032
+e294495128.135230
+r1
+xProcessInfoPlistFile
+x/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Info.plist
+xParanoia-Info.plist
+lSLF07#2@27"Process Paranoia-Info.plist294495128#294495128#0(0"0(0#0#45"/Users/jkohl/dev/Paranoia/Paranoia-Info.plist27303562373562448#524"    cd /Users/jkohl/dev/Paranoia    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Paranoia-Info.plist -genpkginfo /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/ResourceRules.plist -o /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/Info.plist0#
+
+CProcessPCH /var/folders/gD/gDOyqK9HE0aZwRNfV1cUWU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paranoia_Prefix-bctsxusffogunkgtntnwnkucngdl/Paranoia_Prefix.pch.gch Paranoia_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293620446.098512
+e293620448.463458
+r1
+xProcessPCH
+x/var/folders/gD/gDOyqK9HE0aZwRNfV1cUWU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paranoia_Prefix-bctsxusffogunkgtntnwnkucngdl/Paranoia_Prefix.pch.gch
+xParanoia_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Paranoia_Prefix.pch293620446#293620448#0(0"0(0#0#45"/Users/jkohl/dev/Paranoia/Paranoia_Prefix.pch4300774240#1531"    cd /Users/jkohl/dev/Paranoia    setenv LANG en_US.US-ASCII    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-generated-files.hmap -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-own-target-headers.hmap -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-all-target-headers.hmap -iquote /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-project-headers.hmap -F/Users/jkohl/dev/Paranoia/build/Debug-iphoneos -I/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/include -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/DerivedSources/armv6 -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/DerivedSources -c /Users/jkohl/dev/Paranoia/Paranoia_Prefix.pch -o /var/folders/gD/gDOyqK9HE0aZwRNfV1cUWU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paranoia_Prefix-bctsxusffogunkgtntnwnkucngdl/Paranoia_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/gD/gDOyqK9HE0aZwRNfV1cUWU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paranoia_Prefix-favcpwpfvykpcuaqosiwdminmksw/Paranoia_Prefix.pch.gch Paranoia_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293620446.099497
+e293620448.505696
+r1
+xProcessPCH
+x/var/folders/gD/gDOyqK9HE0aZwRNfV1cUWU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paranoia_Prefix-favcpwpfvykpcuaqosiwdminmksw/Paranoia_Prefix.pch.gch
+xParanoia_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Paranoia_Prefix.pch293620446#293620448#0(0"0(0#0#45"/Users/jkohl/dev/Paranoia/Paranoia_Prefix.pch4300774240#1531"    cd /Users/jkohl/dev/Paranoia    setenv LANG en_US.US-ASCII    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-generated-files.hmap -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-own-target-headers.hmap -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-all-target-headers.hmap -iquote /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia-project-headers.hmap -F/Users/jkohl/dev/Paranoia/build/Debug-iphoneos -I/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/include -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/DerivedSources/armv7 -I/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/DerivedSources -c /Users/jkohl/dev/Paranoia/Paranoia_Prefix.pch -o /var/folders/gD/gDOyqK9HE0aZwRNfV1cUWU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Paranoia_Prefix-favcpwpfvykpcuaqosiwdminmksw/Paranoia_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/jkohl/Library/MobileDevice/Provisioning Profiles/61E6A781-190A-48B4-B0B8-9FAC3619C1CE.mobileprovision" /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/embedded.mobileprovision
+s293620449.627198
+e293620449.663530
+r1
+xProcessProductPackaging
+x/Users/jkohl/Library/MobileDevice/Provisioning Profiles/61E6A781-190A-48B4-B0B8-9FAC3619C1CE.mobileprovision
+x/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/embedded.mobileprovision
+lSLF07#2@193"ProcessProductPackaging "/Users/jkohl/Library/MobileDevice/Provisioning Profiles/61E6A781-190A-48B4-B0B8-9FAC3619C1CE.mobileprovision" build/Debug-iphoneos/Paranoia.app/embedded.mobileprovision293620449#293620449#0(0"0(0#0#84"/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/embedded.mobileprovision4300774240#408"    cd /Users/jkohl/dev/Paranoia    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/jkohl/Library/MobileDevice/Provisioning Profiles/61E6A781-190A-48B4-B0B8-9FAC3619C1CE.mobileprovision" -o /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia.xcent
+s294495134.047459
+e294495134.059071
+r1
+xProcessProductPackaging
+x/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia.xcent
+lSLF07#2@183"ProcessProductPackaging /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia.xcent294495134#294495134#0(0"0(0#0#91"/Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia.xcent4300774240#424"    cd /Users/jkohl/dev/Paranoia    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/jkohl/dev/Paranoia/build/Paranoia.build/Debug-iphoneos/Paranoia.build/Paranoia.xcent0#
+
+CTouch /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app
+s294496533.200708
+e294496533.203562
+r1
+xTouch
+x/Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app
+lSLF07#2@65"Touch /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app294496533#294496533#0(0"0(0#0#0"4300774240#249"    cd /Users/jkohl/dev/Paranoia    setenv PATH "/iPhoneOS40beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/iPhoneOS40beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jkohl/dev/Paranoia/build/Debug-iphoneos/Paranoia.app0#
+

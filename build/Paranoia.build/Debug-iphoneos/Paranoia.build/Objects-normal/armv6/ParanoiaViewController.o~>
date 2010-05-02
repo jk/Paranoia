@@ -1,0 +1,4 @@
+/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m: In function '-[ParanoiaViewController viewDidLoad]':
+/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m:37: warning: '-locationManager' not found in protocol(s)
+/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m: In function '-[ParanoiaViewController viewDidUnload]':
+/Users/jkohl/dev/Paranoia/Classes/ParanoiaViewController.m:98: warning: '-locationManager' not found in protocol(s)
